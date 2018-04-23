@@ -86,7 +86,10 @@ public class ProductController {
 	@RequestMapping("/admin/product/deleteproduct/{id}")
 	public String deleteProductById(@PathVariable int id){
 		productService.deleteProduct(id);
-		Path path=Paths.get("H:\\sim\\project1_frontend\\src\\main\\webapp\\WEB-INF\\resources\\images\\"+id+".png");
+		
+		//C:\Users\Admin\git\ShoppingCart\ShoppingCart-frontend\src\main\webapp\WEB-INF\resources\images
+		
+		Path path=Paths.get("C:\\Users\\Admin\\git\\ShoppingCart\\ShoppingCart-frontend\\src\\main\\webapp\\WEB-INF\\resources\\images\\"+id+".jpg");
 		if(Files.exists(path)){
 			try {
 				Files.delete(path);
@@ -117,7 +120,7 @@ public class ProductController {
 		}
 		productService.updateProduct(product);
 		MultipartFile image=product.getImage();
-		Path path=Paths.get("/ShoppingCart-frontend/src/main/webapp/WEB-INF/resources/images/"+product.getId()+".png");
+		Path path=Paths.get("/ShoppingCart-frontend/src/main/webapp/WEB-INF/resources/images/"+product.getId()+".jpg");
 		
 		try {
 			image.transferTo(new File(path.toString()));

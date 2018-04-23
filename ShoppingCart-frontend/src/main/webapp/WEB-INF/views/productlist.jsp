@@ -28,9 +28,9 @@
 </thead>
 <tbody>
 <c:forEach items="${products }" var="p">
-<c:url value="//resources//images//${p.id }.png" var="imageUrl"></c:url>
-<c:url value="/all/product/viewproduct/${p.id }" var="viewUrl"></c:url>
-<c:url value="/admin/product/deleteproduct/${p.id }" var="deleteUrl"></c:url>
+<c:url value="//resources//images//${p.id}.jpg" var="imageUrl"></c:url>
+<c:url value="/all/product/viewproduct/${p.id}" var="viewUrl"></c:url>
+<c:url value="/admin/product/deleteproduct/${p.id}" var="deleteUrl"></c:url>
 <tr>
  <td><img src="${imageUrl }" height="100" width="100"></td>
 <td><a href="${viewUrl }">${p.productName }</a></td><td>${p.category.categoryName}</td><td>${p.price }</td>
