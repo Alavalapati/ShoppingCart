@@ -89,7 +89,7 @@ public class ProductController {
 		
 		//C:\Users\Admin\git\ShoppingCart\ShoppingCart-frontend\src\main\webapp\WEB-INF\resources\images
 		
-		Path path=Paths.get("C:\\Users\\Admin\\git\\ShoppingCart\\ShoppingCart-frontend\\src\\main\\webapp\\WEB-INF\\resources\\images\\"+id+".jpg");
+		Path path=Paths.get("/ShoppingCart-frontend/src/main/webapp/WEB-INF/resources/images/"+id+".jpg");
 		if(Files.exists(path)){
 			try {
 				Files.delete(path);
