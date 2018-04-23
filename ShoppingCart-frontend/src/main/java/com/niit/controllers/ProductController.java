@@ -48,7 +48,7 @@ public class ProductController {
 		}
 		productService.saveProduct(product);
 		MultipartFile image=product.getImage();
-		Path path=Paths.get("H:\\sim\\project1_frontend\\src\\main\\webapp\\WEB-INF\\resources\\images\\"+product.getId()+".png");
+		Path path=Paths.get("/ShoppingCart-frontend/src/main/webapp/WEB-INF/resources/images/"+product.getId()+".jpg");
 		
 		try {
 			image.transferTo(new File(path.toString()));
@@ -117,7 +117,7 @@ public class ProductController {
 		}
 		productService.updateProduct(product);
 		MultipartFile image=product.getImage();
-		Path path=Paths.get("H:\\sim\\project1_frontend\\src\\main\\webapp\\WEB-INF\\resources\\images\\"+product.getId()+".png");
+		Path path=Paths.get("/ShoppingCart-frontend/src/main/webapp/WEB-INF/resources/images/"+product.getId()+".png");
 		
 		try {
 			image.transferTo(new File(path.toString()));
