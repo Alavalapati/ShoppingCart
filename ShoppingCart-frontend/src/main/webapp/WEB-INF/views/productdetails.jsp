@@ -21,7 +21,7 @@
 						</b>: ${product.price }<br> <b>Quantity </b>:${product.quantity }
 						</td>
 						<td><img
-							src='<c:url value="/resources/images/${product.id }.jpg"></c:url>' height="250px" width="250px" alt="NA">
+							src='<c:url value="/resources/images/${product.productName }.jpg"></c:url>' height="250px" width="250px" alt="NA">
 						</td>
 					</tr>
 				</table>

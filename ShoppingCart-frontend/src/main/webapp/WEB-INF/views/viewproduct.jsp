@@ -12,7 +12,7 @@
 <b>Details about the Product</b>
 <table>
 <tr>
-<c:url value="//resources//images//${product.id }.png" var="imageUrl"></c:url>
+<c:url value="//resources//images//${product.id }.jpg" var="imageUrl"></c:url>
 <td><img src="${imageUrl }" height="500" width="500"></td></tr>
 <tr>
 

@@ -33,7 +33,7 @@
 <c:url value="/admin/product/deleteproduct/${p.id}" var="deleteUrl"></c:url>
 <tr>
  <td><img src="${imageUrl }" height="100" width="100"></td>
-<td><a href="${viewUrl }">${p.productName }</a></td><td>${p.category.categoryName}</td><td>${p.price }</td>
+<td><a href="${viewUrl }">${p.productName}</a></td><td>${p.category.categoryName}</td><td>${p.price }</td>
  <td><a href="${viewUrl }"> <span class="glyphicon glyphicon-info-sign"></span></a>
  <security:authorize access="hasRole('ROLE_ADMIN')">
 <a href="${deleteUrl }"><span class="glyphicon glyphicon-trash"></span></a>
