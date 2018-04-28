@@ -92,7 +92,7 @@ font-size: 24px;
             </address>
             <address>
                 <strong>Full Name</strong><br>
-                <a href="mailto:#">first.last@example.com</a>
+                <a href="mailto:#">abcd@gmail.com</a>
             </address>
             </form>
         </div>

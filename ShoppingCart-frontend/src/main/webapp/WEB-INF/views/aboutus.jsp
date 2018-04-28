@@ -15,9 +15,9 @@ color:blue;
 </head>
 <body bgcolor='yellow' >
 <h2>The Website consists of
-lists
+lists of
 products
-cars<h2>
+<h2>
 
 
 </body>
