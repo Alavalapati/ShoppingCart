@@ -35,6 +35,14 @@
     <artifactId>spring-orm</artifactId>
     <version>4.3.9.RELEASE</version>
 </dependency>
+
+
+ <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>4.3.9.RELEASE</version>
+        </dependency>
+
 <!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
 <dependency>
     <groupId>org.hibernate.javax.persistence</groupId>
@@ -135,12 +143,12 @@
         <artifactId>spring-security-taglibs</artifactId>
         <version>4.1.2.RELEASE</version>
         </dependency>
-  
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  <!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.11</version>
+    <scope>test</scope>
+</dependency>
+ </dependencies>
 </project>

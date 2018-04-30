@@ -1,4 +1,4 @@
-package com.niit.configuration;
+ package com.niit.configuration;
 
 import java.util.Properties;
 
@@ -35,7 +35,7 @@ public class DBConfiguration {
 	{
 		BasicDataSource dataSource=new BasicDataSource();
 		dataSource.setDriverClassName("org.h2.Driver");
-		dataSource.setUrl("jdbc:h2:tcp://localhost/~/sirisha");
+		dataSource.setUrl("jdbc:h2:tcp://localhost/~/ecommerce1");
 		dataSource.setUsername("sa");
 		dataSource.setPassword("sa");
 		return dataSource;

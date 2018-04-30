@@ -15,7 +15,7 @@ color:blue;
 </head>
 <body bgcolor='yellow' >
 <h2>The Website consists of
-lists of
+list of
 products
 <h2>
 

@@ -46,9 +46,8 @@ public class Product {
 	public String getProductName() {
 		return productName;
 	}
-	public void setProductName(String productName) {
-		this.productName = productName;
-	}
+
+
 	public double getPrice() {
 		return price;
 	}
@@ -73,7 +72,10 @@ public class Product {
 	public void setCategory(Category category) {
 		this.category = category;
 	}
-	
-	
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+
 
 }
